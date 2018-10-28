@@ -1,0 +1,1522 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1540725297656,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "a4c539ed-5306-41c8-9ecd-7c869702b1f9",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/MSSQL DBA Overview v2",
+      "namePath": "Custom Dashboards",
+      "rank": 354,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "84d72dfe-576d-45fe-9730-f0f7c657b450",
+            "widgetIdReceiver": "daa368cd-d749-42ab-abf8-f3c1eb9c635a"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "84d72dfe-576d-45fe-9730-f0f7c657b450",
+            "widgetIdReceiver": "1119556b-dddb-4bac-9b5a-f5ee97b69db1"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "84d72dfe-576d-45fe-9730-f0f7c657b450",
+            "widgetIdReceiver": "06167e1c-b9f8-4a79-8992-854efcd2e78d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "84d72dfe-576d-45fe-9730-f0f7c657b450",
+            "widgetIdReceiver": "b537b734-9b51-4240-9804-7430826a6489"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "84d72dfe-576d-45fe-9730-f0f7c657b450",
+            "widgetIdReceiver": "accffd0e-5135-41cf-a36d-eb7bbeb01d36"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "84d72dfe-576d-45fe-9730-f0f7c657b450",
+            "widgetIdReceiver": "2fe0a447-efd2-4ff4-a55a-5ade18d245c9"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "84d72dfe-576d-45fe-9730-f0f7c657b450",
+            "widgetIdReceiver": "4cc6a955-92ac-4416-8d76-2fcf9cf9702d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "84d72dfe-576d-45fe-9730-f0f7c657b450",
+            "widgetIdReceiver": "d93933b8-2f94-49d9-b01a-d10d3a6ba3c8"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "84d72dfe-576d-45fe-9730-f0f7c657b450",
+            "widgetIdReceiver": "8b41846a-52b8-4cbf-9082-592740cb7bcf"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "84d72dfe-576d-45fe-9730-f0f7c657b450",
+            "widgetIdReceiver": "dc664520-116e-442f-bd69-923586e29e51"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "84d72dfe-576d-45fe-9730-f0f7c657b450",
+            "widgetIdReceiver": "28b1a211-d034-451e-b1b3-35bf38b43799"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "SQL Version",
+                     "metricKey": "general|sql_version",
+                     "metricName": "General|SQL Version",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Creation Date",
+                     "metricKey": "history|creation_date",
+                     "metricName": "History|Creation Date",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Health (%)",
+                     "metricKey": "badge|health",
+                     "metricName": "Badge|Health (%)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "mode": 0,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": true},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "SQL Instance"
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 4,
+               "x": 1,
+               "y": 1
+            },
+            "height": 153,
+            "id": "84d72dfe-576d-45fe-9730-f0f7c657b450",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_a4c539ed-5306-41c8-9ecd-7c869702b1f9_84d72dfe-576d-45fe-9730-f0f7c657b450",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permResGrid_widget_a4c539ed-5306-41c8-9ecd-7c869702b1f9_84d72dfe-576d-45fe-9730-f0f7c657b450",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A222%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A243%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A171%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253Aname%2525255Edirection%2525253Ds%252525253ADESC"
+               }
+            ],
+            "title": "SQL Instance",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "mode": "resource",
+               "periodLength": null,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "state": [],
+               "status": [0],
+               "tagFilter": null,
+               "title": "Alert List",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 12,
+               "x": 1,
+               "y": 23
+            },
+            "height": 381,
+            "id": "daa368cd-d749-42ab-abf8-f3c1eb9c635a",
+            "states": [
+               {
+                  "key": "permDateFilter_widget_a4c539ed-5306-41c8-9ecd-7c869702b1f9_daa368cd-d749-42ab-abf8-f3c1eb9c635a",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permDateFilter_permAlertGrid_widget_a4c539ed-5306-41c8-9ecd-7c869702b1f9_daa368cd-d749-42ab-abf8-f3c1eb9c635a",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permListGrid_perm_widget_a4c539ed-5306-41c8-9ecd-7c869702b1f9_daa368cd-d749-42ab-abf8-f3c1eb9c635a",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%255Eo%25253Aid%25253Ds%2525253Ah12%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC"
+               },
+               {
+                  "key": "permAlertGrid_perm_widget_a4c539ed-5306-41c8-9ecd-7c869702b1f9_daa368cd-d749-42ab-abf8-f3c1eb9c635a",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%255Eo%25253Aid%25253Ds%2525253Ah12%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC"
+               },
+               {
+                  "key": "permViewMode_widget_a4c539ed-5306-41c8-9ecd-7c869702b1f9_daa368cd-d749-42ab-abf8-f3c1eb9c635a",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "permAlertGrid_widget_a4c539ed-5306-41c8-9ecd-7c869702b1f9_daa368cd-d749-42ab-abf8-f3c1eb9c635a",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ewidth%25253Dn%2525253A107%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }
+            ],
+            "title": "Alert List",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 7,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16885-1",
+                        "isStringMetric": false,
+                        "metricKey": "connection_capacity|number_of_active_connections",
+                        "metricName": "Connection Capacity|Active Connections",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16885-2",
+                        "isStringMetric": false,
+                        "metricKey": "connection_capacity|number_of_connections",
+                        "metricName": "Connection Capacity|Connections",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16885-3",
+                        "isStringMetric": false,
+                        "metricKey": "connection_capacity|number_of_possible_connections",
+                        "metricName": "Connection Capacity|Possible Connections",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20498-1",
+                        "isStringMetric": false,
+                        "metricKey": "connections|connection_reset",
+                        "metricName": "Connections|Connections Reset",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20498-2",
+                        "isStringMetric": false,
+                        "metricKey": "connections|logins",
+                        "metricName": "Connections|Logins",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20498-3",
+                        "isStringMetric": false,
+                        "metricKey": "connections|logouts",
+                        "metricName": "Connections|Logouts",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20498-4",
+                        "isStringMetric": false,
+                        "metricKey": "connections|user_conn_count",
+                        "metricName": "Connections|User Connections",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "MSSQL Instance Connections",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 12,
+               "x": 1,
+               "y": 4
+            },
+            "height": 153,
+            "id": "1119556b-dddb-4bac-9b5a-f5ee97b69db1",
+            "title": "MSSQL Instance Connections",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel21086-1",
+                        "isStringMetric": false,
+                        "metricKey": "jobs|number_of_failed_jobs",
+                        "metricName": "Jobs|Failed Jobs",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel21086-2",
+                        "isStringMetric": false,
+                        "metricKey": "jobs|number_of_successful_jobs",
+                        "metricName": "Jobs|Successful Jobs",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": true},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "MSSQL Instance Jobs",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 4,
+               "x": 5,
+               "y": 1
+            },
+            "height": 153,
+            "id": "06167e1c-b9f8-4a79-8992-854efcd2e78d",
+            "title": "MSSQL Instance Jobs",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel24168-1",
+                        "isStringMetric": false,
+                        "metricKey": "queries|avg_cpu_time_ms",
+                        "metricName": "Queries|Average Query CPU",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel24168-2",
+                        "isStringMetric": false,
+                        "metricKey": "queries|avg_exec_count",
+                        "metricName": "Queries|Average Query Executions",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel24168-3",
+                        "isStringMetric": false,
+                        "metricKey": "queries|queries_end_in_deadlocks",
+                        "metricName": "Queries|Dead Locked Queries",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel24168-4",
+                        "isStringMetric": false,
+                        "metricKey": "queries|high_cpu_time",
+                        "metricName": "Queries|High Query CPU",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel24168-5",
+                        "isStringMetric": false,
+                        "metricKey": "queries|high_exec_count",
+                        "metricName": "Queries|High Query Executions",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel24168-6",
+                        "isStringMetric": false,
+                        "metricKey": "queries|total_cpu_time",
+                        "metricName": "Queries|Total Query CPU",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel24168-7",
+                        "isStringMetric": false,
+                        "metricKey": "queries|total_exec_count",
+                        "metricName": "Queries|Total Query Executions",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": true},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "MSSQL Instance Queries",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 1,
+               "y": 7
+            },
+            "height": 210,
+            "id": "b537b734-9b51-4240-9804-7430826a6489",
+            "title": "MSSQL Instance Queries",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel27318-1",
+                        "isStringMetric": false,
+                        "metricKey": "disk_access|read_bytes",
+                        "metricName": "Disk Access|Bytes Read",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel27318-2",
+                        "isStringMetric": false,
+                        "metricKey": "disk_access|write_bytes",
+                        "metricName": "Disk Access|Bytes Written",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel27318-3",
+                        "isStringMetric": false,
+                        "metricKey": "disk_access|iops",
+                        "metricName": "Disk Access|IOPS",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel27318-4",
+                        "isStringMetric": false,
+                        "metricKey": "disk_access|read_ops",
+                        "metricName": "Disk Access|Read Operations",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel27318-5",
+                        "isStringMetric": false,
+                        "metricKey": "disk_access|total_bytes",
+                        "metricName": "Disk Access|Total bytes",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel27318-6",
+                        "isStringMetric": false,
+                        "metricKey": "disk_access|write_ops",
+                        "metricName": "Disk Access|Write Operations",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": true},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "MSSQL Instance Disk Access",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 5,
+               "y": 7
+            },
+            "height": 210,
+            "id": "accffd0e-5135-41cf-a36d-eb7bbeb01d36",
+            "title": "MSSQL Instance Disk Access",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel30986-1",
+                        "isStringMetric": false,
+                        "metricKey": "cpu|cpu_usage",
+                        "metricName": "CPU|CPU Usage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel30986-2",
+                        "isStringMetric": false,
+                        "metricKey": "cpu|max_cpu_percent",
+                        "metricName": "CPU|Max CPU Percent",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": true},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "MSSQL Instance CPU",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 4,
+               "x": 9,
+               "y": 1
+            },
+            "height": 153,
+            "id": "2fe0a447-efd2-4ff4-a55a-5ade18d245c9",
+            "title": "MSSQL Instance CPU",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel33002-1",
+                        "isStringMetric": false,
+                        "metricKey": "locks|average_wait_time",
+                        "metricName": "Locks|Average Wait Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel33002-2",
+                        "isStringMetric": false,
+                        "metricKey": "locks|average_wait_time_base",
+                        "metricName": "Locks|Average Wait Time Base",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel33002-3",
+                        "isStringMetric": false,
+                        "metricKey": "locks|deadlock",
+                        "metricName": "Locks|Deadlocks",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel33002-4",
+                        "isStringMetric": false,
+                        "metricKey": "locks|wait_time",
+                        "metricName": "Locks|Instance Wait Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel33002-5",
+                        "isStringMetric": false,
+                        "metricKey": "locks|lock_request",
+                        "metricName": "Locks|Lock Requests",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel33002-6",
+                        "isStringMetric": false,
+                        "metricKey": "locks|lock_timeout",
+                        "metricName": "Locks|Lock Timeouts",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel33002-7",
+                        "isStringMetric": false,
+                        "metricKey": "locks|lock_wait_time",
+                        "metricName": "Locks|Lock Wait Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel33002-8",
+                        "isStringMetric": false,
+                        "metricKey": "locks|lock_wait",
+                        "metricName": "Locks|Lock Waits",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "MSSQL Instance Locks",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 6,
+               "x": 7,
+               "y": 11
+            },
+            "height": 153,
+            "id": "4cc6a955-92ac-4416-8d76-2fcf9cf9702d",
+            "title": "MSSQL Instance Locks",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel34517-1",
+                        "isStringMetric": false,
+                        "metricKey": "sysprocesses_states|background",
+                        "metricName": "Process States|Background Processes",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel34517-2",
+                        "isStringMetric": false,
+                        "metricKey": "sysprocesses_states|blocked",
+                        "metricName": "Process States|Blocked Processes",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel34517-3",
+                        "isStringMetric": false,
+                        "metricKey": "sysprocesses_states|dormant",
+                        "metricName": "Process States|Dormant Processes",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel34517-4",
+                        "isStringMetric": false,
+                        "metricKey": "sysprocesses_states|preconnect",
+                        "metricName": "Process States|Preconnect Processes",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel34517-5",
+                        "isStringMetric": false,
+                        "metricKey": "sysprocesses_states|runnable",
+                        "metricName": "Process States|Runnable Processes",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel34517-6",
+                        "isStringMetric": false,
+                        "metricKey": "sysprocesses_states|running",
+                        "metricName": "Process States|Running Processes",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel34517-7",
+                        "isStringMetric": false,
+                        "metricKey": "sysprocesses_states|sleeping",
+                        "metricName": "Process States|Sleeping Processes",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel34517-8",
+                        "isStringMetric": false,
+                        "metricKey": "sysprocesses_states|suspended",
+                        "metricName": "Process States|Suspended Processes",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "MSSQL Instance Processes",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 6,
+               "x": 1,
+               "y": 11
+            },
+            "height": 153,
+            "id": "d93933b8-2f94-49d9-b01a-d10d3a6ba3c8",
+            "title": "MSSQL Instance Processes",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel36809-1",
+                        "isStringMetric": false,
+                        "metricKey": "statements|batch_compilation_ratio",
+                        "metricName": "Statements|Batch Compilation Ratio",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel36809-2",
+                        "isStringMetric": false,
+                        "metricKey": "statements|batch_requests",
+                        "metricName": "Statements|Batch Requests",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel36809-3",
+                        "isStringMetric": false,
+                        "metricKey": "statements|forced_parameterizations",
+                        "metricName": "Statements|Forced Parameterizations",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel36809-4",
+                        "isStringMetric": false,
+                        "metricKey": "statements|sql_compilations",
+                        "metricName": "Statements|SQL Compilations",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel36809-5",
+                        "isStringMetric": false,
+                        "metricKey": "statements|sql_recompilations_ratio",
+                        "metricName": "Statements|SQL Recompilation Ratio",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel36809-6",
+                        "isStringMetric": false,
+                        "metricKey": "statements|sql_recompilations",
+                        "metricName": "Statements|SQL Recompilations",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": true},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "MSSQL Instance Statements",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 9,
+               "y": 7
+            },
+            "height": 210,
+            "id": "8b41846a-52b8-4cbf-9082-592740cb7bcf",
+            "title": "MSSQL Instance Statements",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 8,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel39250-14",
+                        "isStringMetric": false,
+                        "metricKey": "buffer|buffer_cache_hit_ratio",
+                        "metricName": "Buffer|Buffer Cache Hit Ratio",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel39250-15",
+                        "isStringMetric": false,
+                        "metricKey": "buffer|buffer_ideal_page_life_expectancy",
+                        "metricName": "Buffer|Buffer Ideal Page Life Expectancy",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel39250-16",
+                        "isStringMetric": false,
+                        "metricKey": "buffer|buffer_page_life_expectancy",
+                        "metricName": "Buffer|Buffer Page Life Expectancy",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel39250-17",
+                        "isStringMetric": false,
+                        "metricKey": "buffer|buffer_pool_hit_ratio",
+                        "metricName": "Buffer|Buffer Pool Hit Ratio",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel39250-18",
+                        "isStringMetric": false,
+                        "metricKey": "buffer|buffer_pool_size",
+                        "metricName": "Buffer|Buffer Pool Size",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel39250-19",
+                        "isStringMetric": false,
+                        "metricKey": "buffer|checkpoint_page",
+                        "metricName": "Buffer|Checkpoint Pages",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel39250-20",
+                        "isStringMetric": false,
+                        "metricKey": "buffer|database_pages",
+                        "metricName": "Buffer|Database Pages",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel39250-21",
+                        "isStringMetric": false,
+                        "metricKey": "buffer|free_list_stall",
+                        "metricName": "Buffer|Free List Stalls",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel39250-22",
+                        "isStringMetric": false,
+                        "metricKey": "buffer|lazy_writes",
+                        "metricName": "Buffer|Lazy Writes",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel39250-23",
+                        "isStringMetric": false,
+                        "metricKey": "buffer|page_lookup",
+                        "metricName": "Buffer|Page Lookups",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel39250-24",
+                        "isStringMetric": false,
+                        "metricKey": "buffer|page_read",
+                        "metricName": "Buffer|Page Reads",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel39250-25",
+                        "isStringMetric": false,
+                        "metricKey": "buffer|page_splits",
+                        "metricName": "Buffer|Page Splits",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel39250-26",
+                        "isStringMetric": false,
+                        "metricKey": "buffer|page_write",
+                        "metricName": "Buffer|Page Writes",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel39250-27",
+                        "isStringMetric": false,
+                        "metricKey": "buffer|proc_cache_pages",
+                        "metricName": "Buffer|Procedure Cached Pages",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel39250-28",
+                        "isStringMetric": false,
+                        "metricKey": "buffer|read_aheads",
+                        "metricName": "Buffer|Read Aheads",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel39250-29",
+                        "isStringMetric": false,
+                        "metricKey": "buffer|target_pages",
+                        "metricName": "Buffer|Target Pages",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "MSSQL Instance Buffer",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 12,
+               "x": 1,
+               "y": 14
+            },
+            "height": 210,
+            "id": "dc664520-116e-442f-bd69-923586e29e51",
+            "title": "MSSQL Instance Buffer",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 7,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-1",
+                        "isStringMetric": false,
+                        "metricKey": "memory|available_physical_memory",
+                        "metricName": "Memory|Available Physical Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-2",
+                        "isStringMetric": false,
+                        "metricKey": "memory|connection_memory",
+                        "metricName": "Memory|Connection Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-3",
+                        "isStringMetric": false,
+                        "metricKey": "memory|database_cache_memory",
+                        "metricName": "Memory|Database Cache Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-4",
+                        "isStringMetric": false,
+                        "metricKey": "memory|effective_total_memory",
+                        "metricName": "Memory|Effective Total Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-5",
+                        "isStringMetric": false,
+                        "metricKey": "memory|free_memory",
+                        "metricName": "Memory|Free Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-6",
+                        "isStringMetric": false,
+                        "metricKey": "memory|granted_workspace_memory",
+                        "metricName": "Memory|Granted Workspace Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-7",
+                        "isStringMetric": false,
+                        "metricKey": "memory|lock_memory",
+                        "metricName": "Memory|Lock Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-8",
+                        "isStringMetric": false,
+                        "metricKey": "memory|log_pool_memory",
+                        "metricName": "Memory|Log Pool Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-9",
+                        "isStringMetric": false,
+                        "metricKey": "memory|max_server_memory",
+                        "metricName": "Memory|Max Server Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-10",
+                        "isStringMetric": false,
+                        "metricKey": "memory|maximum_workspace_memory",
+                        "metricName": "Memory|Maximum Workspace Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-11",
+                        "isStringMetric": false,
+                        "metricKey": "memory|memory_usage",
+                        "metricName": "Memory|Memory Usage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-12",
+                        "isStringMetric": false,
+                        "metricKey": "memory|optimizer_memory",
+                        "metricName": "Memory|Optimizer Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-13",
+                        "isStringMetric": false,
+                        "metricKey": "memory|physical_memory_max_limit",
+                        "metricName": "Memory|Physical Memory Max",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-14",
+                        "isStringMetric": false,
+                        "metricKey": "memory|physical_recommended_memory",
+                        "metricName": "Memory|Physical Memory Recommended",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-15",
+                        "isStringMetric": false,
+                        "metricKey": "memory|physical_memory_in_use",
+                        "metricName": "Memory|Physical Memory Used",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-16",
+                        "isStringMetric": false,
+                        "metricKey": "memory|reserved_server_memory",
+                        "metricName": "Memory|Reserved Server Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-17",
+                        "isStringMetric": false,
+                        "metricKey": "memory|sql_cache_memory",
+                        "metricName": "Memory|SQL Cache Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-18",
+                        "isStringMetric": false,
+                        "metricKey": "memory|stolen_server_memory",
+                        "metricName": "Memory|Stolen Server Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-19",
+                        "isStringMetric": false,
+                        "metricKey": "memory|total_physical_memory",
+                        "metricName": "Memory|Total Physical Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel41113-20",
+                        "isStringMetric": false,
+                        "metricKey": "memory|total_server_memory",
+                        "metricName": "Memory|Total Server Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Microsoft SQL Server Instance",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "MSSQL Instance Memory",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 12,
+               "x": 1,
+               "y": 18
+            },
+            "height": 267,
+            "id": "28b1a211-d034-451e-b1b3-35bf38b43799",
+            "title": "MSSQL Instance Memory",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [{
+      "adapterKindKey": "SqlServerAdapter",
+      "internalId": "resourceKind:id:0_::_",
+      "resourceKindKey": "SqlServer"
+   }]},
+   "uuid": "2df9dc25-a032-4fc9-8927-68816f809d1e"
+}
